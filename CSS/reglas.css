@@ -126,6 +126,11 @@ h1 {
         width: 70%;  
    
       }
+      img[src="../Imagenes/taj1.jpg"] {
+        height: 70%;
+        width: 70%;  
+   
+      }
       img[src="../Imagenes/coliseo2.jpg"] {
         height: 50%;
         width: 50%;  
