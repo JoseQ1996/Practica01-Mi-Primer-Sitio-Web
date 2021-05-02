@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*
+   Formato Pagina Home
+   Nombre:Jose Quinde
+
+*/
+
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 660px;
+    
+}
+
+body > header {
+    
+    margin: 0;
+	width: 100%;
+    height: 100px;
+	
+}
+img[src="../Imagenes/logo.png"] {
+    height: 100%;
+    width: 100%;
+   
+ }
+ 
+body > article{
+	width: 51%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+article.syllabus {
+    float: left;
+	width: 74.5%;
+	margin: 0 4% 0 0%;
+}
+/*Estilo Navegacion*/
+body > nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+nav {
+    font-size: 0.8em;
+   }
+   nav > ul {
+    line-height: 2em;
+    list-style-type: none;
+    padding-left: 5px;
+   } 
+   nav > ul > li.newgroup {
+    margin-top: 20px;
+   }
+   nav > ul > li > a:link, nav > ul > li > a:visited {
+    color:white;
+    text-decoration: none;
+   }
+   nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: rgb(189, 55, 32);
+    text-decoration: underline;
+   }
+   /*Imagenes Estilos*/
+img[src="../Imagenes/1maravilla.jpg"] {
+    height: 50%;
+    width: 50%;  
+    float: right;
+  }
+  img[src="../Imagenes/1maravilla2.jpg"] {
+    height: 50%;
+    width: 50%;  
+    float: right;
+  }
+
+body > footer {
+	width: 100%;
+	clear: left;
+}

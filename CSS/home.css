@@ -10,8 +10,8 @@
 body {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1020px;
-	min-width: 640px;
+	max-width: 1200px;
+	min-width: 660px;
     
 }
 
@@ -22,14 +22,8 @@ body > header {
     height: 100px;
 	
 }
-img[src="Imagenes/logo.png"] {
-    height: 100%;
-    width: 100%;
-    
-    
- }
- 
 
+/*Estilo Navegacion*/
 body > nav {
     background:#eaedaa;
 	float:center;
@@ -40,7 +34,7 @@ body > nav {
     
     
 }
-
+/*Estilo  Articulos*/
 body > article#marav {
 	width: 51%;
 	float: left;
@@ -63,6 +57,12 @@ body > article#maravill img {
 	width: 50%;
 	margin: 0px 0;
 }
+/*Imagenes Estilo*/
+img[src="Imagenes/logo.png"] {
+    height: 100%;
+    width: 100%;   
+    
+ }
 img[src="Imagenes/7maravillas.jpg"] {
     height: 50%;
     width: 50%;  
@@ -78,3 +78,12 @@ body > footer {
 	width: 100%;
 	clear: left;
 }
+/*Estilos Navegador*/
+nav >  a:link, nav > a:visited {
+    color: #2d2453;
+    text-decoration: none;
+   }
+   nav  > a:hover, nav > a:active {
+    color: rgb(189, 55, 32);
+    text-decoration: underline;
+   }

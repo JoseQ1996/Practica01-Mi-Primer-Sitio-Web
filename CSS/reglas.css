@@ -29,27 +29,16 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 0.1em;
    }
- article#marav h1 {
+    h1 {
     color:#2d2453;
     background-color:#eaedaa;
    }
-   article#maravillas h2 {
+ 
+    h2 {
     color:#2d2453;
     background-color:#eaedaa;
    }
-   article#maravill h2 {
-    color:#2d2453;
-    background-color:#eaedaa;
-   }
-   /*Estilos Navegador*/
-   nav >  a:link, nav > a:visited {
-    color: #2d2453;
-    text-decoration: none;
-   }
-   nav  > a:hover, nav > a:active {
-    color: rgb(189, 55, 32);
-    text-decoration: underline;
-   }
+   
    /*Estilo Footer*/
    footer{
     background-color:#eaedaa;
