@@ -86,6 +86,31 @@ nav {
     color: rgb(189, 55, 32);
     text-decoration: underline;
    }
+   /*Estilos de header en secciones */
+   section>header#seccion2 > ul > li > a:link, section>header#seccion2  > ul > li > a:visited {
+    color:white;
+    text-decoration: none;
+   }
+   section>header#seccion2> ul > li > a:hover, section>header#seccion2 > ul > li > a:active {
+    color: rgb(189, 55, 32);
+    text-decoration: underline;
+   }
+   section>header#seccion3 > ul > li > a:link, section>header#seccion3  > ul > li > a:visited {
+    color:white;
+    text-decoration: none;
+   }
+   section>header#seccion3> ul > li > a:hover, section>header#seccion3 > ul > li > a:active {
+    color: rgb(189, 55, 32);
+    text-decoration: underline;
+   }
+   section>header#seccion4 > ul > li > a:link, section>header#seccion4  > ul > li > a:visited {
+    color:white;
+    text-decoration: none;
+   }
+   section>header#seccion4> ul > li > a:hover, section>header#seccion4 > ul > li > a:active {
+    color: rgb(189, 55, 32);
+    text-decoration: underline;
+   }
   
 
 body > footer {
