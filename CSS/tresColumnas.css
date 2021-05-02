@@ -35,7 +35,7 @@ article.syllabus {
 	width: 74.5%;
 	margin: 0 4% 0 0%;
 }
-body >section{
+#contenedor{
     width: 50%;
 	float: left;
 	margin: 0 3% 0 3%;
@@ -64,7 +64,8 @@ body > nav {
 	width: 20%;
 	float: left;
 	margin: 0 0 0 1.5%;
-    height:1200px;
+  
+    
 }
 nav {
     font-size: 0.8em;
