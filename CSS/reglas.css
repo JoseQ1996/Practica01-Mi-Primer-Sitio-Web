@@ -38,7 +38,18 @@ h1 {
     color:#2d2453;
     background-color:#eaedaa;
    }
-   
+   table {
+   background-color: WHITE;
+   color:#2d2453; 
+    
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
    /*Estilo Footer*/
    footer{
     background-color:#eaedaa;

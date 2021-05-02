@@ -41,9 +41,9 @@ body >section{
 	margin: 0 3% 0 3%;
 }
 /* Estilos de Aside  */
-body > aside {
+body > article>aside {
 	width: 20%;
-	float: left;
+	float: right;
 	margin: 0 1.5% 0 0;
     
 }
