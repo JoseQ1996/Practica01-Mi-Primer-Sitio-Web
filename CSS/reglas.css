@@ -9,11 +9,10 @@
     clear:both;
 }
 html {
-    background-color: #6fd1d4;
+    background-image: url("Imagenes/fondo.jpg");
    }
-   body {
+   body {  
     color:black;
-    background-color: #6ac6c9;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
    }
   /* Estilo Titulos */
@@ -27,9 +26,17 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 0.1em;
    }
- article#maravillas h1 {
+ article#marav h1 {
     color: white;
     background-color:rgb(67, 139, 180);
+   }
+   article#maravillas h2 {
+    color: white;
+    background-color:rgb(59, 124, 161);
+   }
+   article#maravill h2 {
+    color: white;
+    background-color:rgb(59, 124, 161);
    }
    /*Estilos Navegador*/
    nav >  a:link, nav > a:visited {

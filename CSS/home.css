@@ -28,12 +28,7 @@ img[src="Imagenes/logo.jpg"] {
     
     
  }
-  img[src="Imagenes/7maravillas.jpg"] {
-    height: 50%;
-    width: 50%;
-    
-    
-  }
+ 
 
 body > nav {
     background:rgb(67, 139, 180);
@@ -46,18 +41,36 @@ body > nav {
     
 }
 
-body > article#maravillas {
+body > article#marav {
 	width: 51%;
 	float: left;
 	margin: 0 3% 0 3%;
 }
 
-body > article#maravillas img {
+body > article#marav img {
 	float: right;
 	width: 40%;
 	margin: 0px 0 10px 10px;
 }
+body > article#maravill{
+	width: 100%;
+	float: left;
+	margin: 0 ;
+}
 
+body > article#maravill img {
+	float: right;
+	width: 50%;
+	margin: 0px 0;
+}
+img[src="Imagenes/7maravillas.jpg"] {
+    height: 50%;
+    width: 50%;  
+  }
+  img[src="Imagenes/piramides.jpg"] {
+    height: 50%;
+    width: 50%;  
+  }
 
 body > footer {
 	width: 100%;
