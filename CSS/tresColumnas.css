@@ -10,7 +10,7 @@
 body {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1300px;
 	min-width: 660px;
     
 }
@@ -53,20 +53,11 @@ aside {
  aside blockquote {
     color:white;
     margin: 20px 5px;
-    quotes: "\201C" "\201D";
-   }
-   aside blockquote::before {
-    content: open-quote;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: bold;
    }
-   aside blockquote::after {
-    content: close-quote;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.6em;
-    font-weight: bold;
-   }
+
 /*Estilo Navegacion*/
 body > nav {
     
@@ -95,24 +86,20 @@ nav {
     color: rgb(189, 55, 32);
     text-decoration: underline;
    }
-   /*Imagenes Estilos*/
-   img[src="../Imagenes/logo.png"] {
-    height: 100%;
-    width: 100%;
-   
- }
-img[src="../Imagenes/coliseo1.jpg"] {
-    height: 50%;
-    width: 50%;  
-    
-  }
-  img[src="../Imagenes/coliseo2.jpg"] {
-    height: 50%;
-    width: 50%;  
-    
-  }
+  
 
 body > footer {
 	width: 100%;
 	clear: left;
 }
+/*Imagenes Estilos*/
+img[src="../Imagenes/logo.png"] {
+    height: 30%;
+    width: 30%;   
+    
+ }
+ img[src="../Imagenes/LOGO-UPS.png"] {
+    height: 70%;
+    width: 20%;   
+    float: left;
+ }

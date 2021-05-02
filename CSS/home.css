@@ -10,7 +10,7 @@
 body {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1300px;
 	min-width: 660px;
     
 }
@@ -57,22 +57,6 @@ body > article#maravill img {
 	width: 50%;
 	margin: 0px 0;
 }
-/*Imagenes Estilo*/
-img[src="Imagenes/logo.png"] {
-    height: 100%;
-    width: 100%;   
-    
- }
-img[src="Imagenes/7maravillas.jpg"] {
-    height: 50%;
-    width: 50%;  
-    float: right;
-  }
-  img[src="Imagenes/piramides.jpg"] {
-    height: 50%;
-    width: 50%;  
-    float: right;
-  }
 
 body > footer {
 	width: 100%;

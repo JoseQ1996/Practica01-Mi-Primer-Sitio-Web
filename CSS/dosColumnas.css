@@ -10,7 +10,7 @@
 body {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1300px;
 	min-width: 660px;
     
 }
@@ -68,24 +68,18 @@ nav {
     color: rgb(189, 55, 32);
     text-decoration: underline;
    }
-   /*Imagenes Estilos*/
-   img[src="../Imagenes/logo.png"] {
-    height: 100%;
-    width: 100%;
-   
- }
-img[src="../Imagenes/1maravilla.jpg"] {
-    height: 50%;
-    width: 50%;  
-    float: right;
-  }
-  img[src="../Imagenes/1maravilla2.jpg"] {
-    height: 50%;
-    width: 50%;  
-    float: right;
-  }
-
 body > footer {
 	width: 100%;
 	clear: left;
 }
+/*Imagenes Estilos*/
+img[src="../Imagenes/logo.png"] {
+    height: 30%;
+    width: 30%;   
+    
+ }
+ img[src="../Imagenes/LOGO-UPS.png"] {
+    height: 70%;
+    width: 20%;   
+    float: left;
+ }

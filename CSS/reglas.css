@@ -62,3 +62,51 @@ h1 {
     font-family: sans-serif;
     text-align: center;
    }
+   
+    /*Imagenes Estilos*/
+    img[src="Imagenes/buscar.png"] {
+        height: 35px;
+        width: 35px;   
+        
+     }
+    img[src="Imagenes/logo.png"] {
+        height: 80%;
+        width: 60%;   
+        
+     }
+     img[src="Imagenes/LOGO-UPS.png"] {
+        height: 65%;
+        width: 20%;   
+        float: left;
+     }
+    img[src="Imagenes/7maravillas.jpg"] {
+        height: 40%;
+        width: 40%;  
+        float: right;
+      }
+      img[src="Imagenes/piramides.jpg"] {
+        height:30%;
+        width: 30%;  
+        float: right;
+      }
+    
+    img[src="../Imagenes/coliseo1.jpg"] {
+        height: 50%;
+        width: 50%;  
+        
+      }
+      img[src="../Imagenes/coliseo2.jpg"] {
+        height: 50%;
+        width: 50%;  
+        
+      }
+    img[src="../Imagenes/1maravilla.jpg"] {
+        height: 50%;
+        width: 50%;  
+        float: right;
+      }
+      img[src="../Imagenes/1maravilla2.jpg"] {
+        height: 50%;
+        width: 50%;  
+        float: right;
+      }
