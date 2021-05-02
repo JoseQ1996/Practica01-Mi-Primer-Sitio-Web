@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/*
+   Reglas para textos, y formato pagina
+   Nombre:Jose Quinde
+
+*/
+.espacios{
+    clear:both;
+}
+html {
+    background-color: #6fd1d4;
+   }
+   body {
+    color:black;
+    background-color: #6ac6c9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+  /* Estilo Titulos */
+h1 {
+    font-size: 2.2em;
+   }
+   h2 {
+    font-size: 1.5em;
+   }
+ h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.1em;
+   }
+ article#maravillas h1 {
+    color: white;
+    background-color:rgb(67, 139, 180);
+   }
+   /*Estilos Navegador*/
+   nav >  a:link, nav > a:visited {
+    color: rgb(212, 206, 206);
+    text-decoration: none;
+   }
+   nav  > a:hover, nav > a:active {
+    color: rgb(189, 55, 32);
+    text-decoration: underline;
+   }
+   /*Estilo Footer*/
+   footer{
+    background-color:rgb(67, 139, 180);
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+   }
