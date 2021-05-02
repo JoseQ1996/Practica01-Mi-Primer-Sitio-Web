@@ -100,6 +100,32 @@ h1 {
         width: 70%;  
    
       }
+      img[src="../Imagenes/machu1.jpg"] {
+        height: 70%;
+        width: 70%;  
+   
+      }
+      
+      img[src="../Imagenes/machu2.jpg"] {
+        height: 70%;
+        width: 70%;  
+   
+      }
+      img[src="../Imagenes/petra1.jpg"] {
+        height: 70%;
+        width: 70%;  
+   
+      }
+      img[src="../Imagenes/petra2.jpg"] {
+        height: 70%;
+        width: 70%;  
+   
+      }
+      img[src="../Imagenes/petra3.jpg"] {
+        height: 70%;
+        width: 70%;  
+   
+      }
       img[src="../Imagenes/coliseo2.jpg"] {
         height: 50%;
         width: 50%;  
