@@ -22,7 +22,7 @@ body > header {
     height: 100px;
 	
 }
-img[src="Imagenes/logo.jpg"] {
+img[src="Imagenes/logo.png"] {
     height: 100%;
     width: 100%;
     
@@ -31,7 +31,7 @@ img[src="Imagenes/logo.jpg"] {
  
 
 body > nav {
-    background:rgb(67, 139, 180);
+    background:#eaedaa;
 	float:center;
     list-style: none;
     text-align: center;
@@ -48,9 +48,9 @@ body > article#marav {
 }
 
 body > article#marav img {
-	float: right;
+	float: center;
 	width: 40%;
-	margin: 0px 0 10px 10px;
+	margin: 0px ;
 }
 body > article#maravill{
 	width: 100%;
@@ -59,17 +59,19 @@ body > article#maravill{
 }
 
 body > article#maravill img {
-	float: right;
+	float: center;
 	width: 50%;
 	margin: 0px 0;
 }
 img[src="Imagenes/7maravillas.jpg"] {
     height: 50%;
     width: 50%;  
+    float: right;
   }
   img[src="Imagenes/piramides.jpg"] {
     height: 50%;
     width: 50%;  
+    float: right;
   }
 
 body > footer {
