@@ -71,3 +71,14 @@ nav >  a:link, nav > a:visited {
     color: rgb(189, 55, 32);
     text-decoration: underline;
    }
+   .boton {
+    border: 1px solid black; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #eaedaa; /*color botón*/
+    color:#2d2453; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+  
